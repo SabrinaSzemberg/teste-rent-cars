@@ -1,5 +1,6 @@
 const express = require('express');
 const apiRoutes = require('./src/routes/veiculosRoutes');
+const cors = require('cors');
 const {sequelize, connectToDb} = require('./db');
 
 const app = express();
@@ -7,7 +8,7 @@ const PORT = 3000;
 
 app.use(express.json());
 app.use('/', apiRoutes);
-
+app.use(cors())
 
 app.use((req, res) => {
     res.status(404);
