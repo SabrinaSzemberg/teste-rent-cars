@@ -35,7 +35,13 @@ $ mkdir /tmp/mysql-data
 ```
 $ docker run --name basic-mysql --rm -v /tmp/mysql-data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=ANSKk08aPEDbFjDO -e MYSQL_DATABASE=testing -p 3307:3306 -it mysql:8.0
 ```
-4. No diretorio raiz do projeto, inicie o backend com o comando:
+4. Clone o repositório usando git clone https://github.com/SabrinaSzemberg/teste-rent-cars.git ou baixando os arquivos diretamente pelo GitHub, vá até a pasta criada com cd "Pasta criada".
+
+5. No diretório atual, digite: npm install mysql sequelize express nodemon.
+
+6. Execute o comando npm install.
+
+7. No diretorio raiz do projeto, inicie o backend com o comando:
 ```
 $ npm start
 ```
