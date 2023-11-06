@@ -47,7 +47,7 @@ $ npm start
 ```
 
 ### No Frontend
-1. Na pasta my_app/frontend abra no navegador o arquivo index.html
+1. Na pasta frontend abra no navegador o arquivo index.html
 
 ## Linguagens, dependencias e libs utilizadas
 
