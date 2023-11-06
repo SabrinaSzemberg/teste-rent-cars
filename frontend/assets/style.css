@@ -1,0 +1,53 @@
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+input[type=text],
+input[type=number],
+input[type=checkbox],
+select {
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 12px;
+  border-radius: 8px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Tabelas e Formulário*/
+
+table#automovel {
+  border: 1px solid black;
+  color: #333;
+  border-spacing: 0px;
+  margin-top: 12px;
+}
+
+table#automovel td,
+th {
+  border: 1px solid black;
+  padding: 8px;
+  padding-top: 0%;
+  text-align: center;
+
+}
+
+th {
+  background-color: rgb(175, 175, 175);
+}
