@@ -17,10 +17,9 @@ const connection = new Sequelize(
 
 const Veiculos = connection.define('veiculos', {
     id: {
-        type: DataTypes.UUID,
-          defaultValue: DataTypes.UUIDV4,
-          primaryKey: true,
-          allowNull: false,
+        type: Sequelize.STRING,
+        primaryKey: true,
+        allowNull: false,
     },
     locadora: {
         type: Sequelize.STRING,
