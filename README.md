@@ -39,7 +39,7 @@ $ docker run --name basic-mysql --rm -v /tmp/mysql-data:/var/lib/mysql -e MYSQL_
 
 5. No diretório atual, digite: npm install mysql sequelize express nodemon.
 
-6.Execute o comando npm install.
+6. Execute o comando npm install.
 
 7. No diretorio raiz do projeto, inicie o backend com o comando:
 ```
